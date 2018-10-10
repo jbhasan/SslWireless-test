@@ -10,7 +10,7 @@ class Sslwireless
 	}
 
 	public function payment_by_sslwireless($products, $tran_id = false) {
-		/* PHP */
+		/* PHP */ #v2.2
 		$post_data = array();
 		$post_data['store_id'] = $this->config->store_id;
 		$post_data['store_passwd'] = $this->config->store_passwd;
