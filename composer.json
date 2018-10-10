@@ -1,0 +1,19 @@
+{
+    "name": "sayeed/sslwireless",
+    "description": "This is payment gateway of SSL Wireless. You can use if for getting payment for your online product.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hasan",
+            "email": "jbhasan@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Sayeed\\Sslwireless\\": "src/"
+        }
+    }
+}
