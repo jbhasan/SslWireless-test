@@ -3,7 +3,6 @@
     "type": "library",
     "description": "This is payment gateway of SSL Wireless. You can use if for getting payment for your online product.",
     "license": "MIT",
-    "version": "1.0.1",
     "authors": [
         {
             "name": "Hasan",
