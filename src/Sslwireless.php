@@ -5,8 +5,14 @@ class Sslwireless
 {
 	protected $config;
 
-	public function __construct($config) {
-		$this->config = $config;
+	public function __construct($connection_name = false) {
+		if ($connection_name) {
+			$config = config('sayeed.sslwireless.'.$connection_name);
+		} else {
+			$config = config('sayeed.sslwireless.connection');
+		}
+
+		$this->config = (object) $config;
 	}
 
 	public function payment_by_sslwireless($products, $tran_id = false) {
