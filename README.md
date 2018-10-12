@@ -1,5 +1,7 @@
 # Laravel SSL Wireless Payment Gateway
 
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/nilpahar/SslWireless-test/master/LICENSE)
+
 This is payment gateway of SSL Wireless. You can use if for getting payment for your online product
 
 ## Installation
